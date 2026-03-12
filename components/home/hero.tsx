@@ -37,8 +37,8 @@ export const HeroSection = ({
         <div className="text-center max-w-4xl mx-auto w-full px-2">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight px-2">
             <GradientText
-              className="block"
               neon
+              className="block"
               text="Designing Visual Identities & Modern Web Experiences"
             />
           </h1>

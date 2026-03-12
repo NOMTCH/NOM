@@ -47,12 +47,12 @@ export const Navigation = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               <Image
-                src="/Favicon-09.svg"
-                alt="NOM Logo"
-                width={40}
-                height={40}
-                className="h-10 w-10"
                 priority
+                alt="NOM Logo"
+                className="h-10 w-10"
+                height={40}
+                src="/Favicon-09.svg"
+                width={40}
               />
               <span className="font-bold text-xl text-black dark:text-white transition-colors duration-300" style={{ fontFamily: 'var(--font-konexy)', letterSpacing: '10px' }}>
                 NOM
