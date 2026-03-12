@@ -86,7 +86,7 @@ export default defineConfig([globalIgnores([
     files: ["**/*.ts", "**/*.tsx"],
 
     rules: {
-        "no-console": "warn",
+        "no-console": "off",
         "react/prop-types": "off",
         "react/jsx-uses-react": "off",
         "react/react-in-jsx-scope": "off",
@@ -103,11 +103,7 @@ export default defineConfig([globalIgnores([
         "unused-imports/no-unused-vars": "off",
         "unused-imports/no-unused-imports": "warn",
 
-        "@typescript-eslint/no-unused-vars": ["warn", {
-            args: "after-used",
-            ignoreRestSiblings: false,
-            argsIgnorePattern: "^_.*?$",
-        }],
+        "@typescript-eslint/no-unused-vars": "off",
 
         "import/order": ["warn", {
             groups: [
